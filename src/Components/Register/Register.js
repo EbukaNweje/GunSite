@@ -10,9 +10,8 @@ import {ImLock, ImPlus} from "react-icons/im"
 import Info from './info';
 import BusinessInfo from './AddBusinessInfo';
 
-
-
 const Register = () => {
+
   return (
     <Container>
       <Wrapper>
@@ -89,7 +88,7 @@ const Register = () => {
       <BusinessInfo/>
       <Submit>
         <Cancel>Cancel</Cancel>
-        <Continue>Continue</Continue>
+        <Continue to='/https://www.gunbroker.com/newregistration/signupdetails#'>Continue</Continue>
       </Submit>
       </Wrapper>
     </Container>

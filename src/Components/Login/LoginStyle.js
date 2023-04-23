@@ -1,6 +1,5 @@
 import styled from "styled-components";
 
-
 export const Hold = styled.div`
 width: 90%;
 height: 80%;
@@ -123,6 +122,20 @@ color: #006400;
 @media Screen and (max-width: 425px){
     font-size: 13px;
 }
+`;
+export const Button2 = styled.button`
+background-color: #006400;
+padding: 0.5rem 2rem;
+border: none;
+outline: none;
+border-radius: 3px;
+color: white;
+width: 100px;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
 `;
 export const Button = styled.button`
 background-color: #006400;

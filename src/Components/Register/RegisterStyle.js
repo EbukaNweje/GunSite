@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import {Link} from 'react-router-dom'
 
 export const Submit = styled.div`
 width: 100%;
@@ -8,13 +9,14 @@ align-items: center;
 padding: 1rem 0;
 margin-top: 20px;
 `;
-export const Continue = styled.button`
+export const Continue = styled(Link)`
 padding: 0.7rem 2rem;
 background-color: #006400;
 color: white;
 cursor: pointer;
 border-radius: 5px;
 border: none;
+text-decoration: none;
 outline: none;
 `;
 export const Cancel = styled.div`
