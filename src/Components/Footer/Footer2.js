@@ -28,7 +28,7 @@ const Footer2 = () => {
             </RightHold>
         </Wrapper>
     </Container>
-  )
+  ) 
 }
 
 export default Footer2;
