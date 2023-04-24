@@ -11,53 +11,44 @@ const Footer3 = () => {
             <Holder>
             <Col2>
             <Title>POPULAR TOPICS</Title>
-            <a>Careers at GunBroker</a>
-            <a>CZ-USA</a>
-            <a>Gun Sights</a>
-            <a>KEL-TEC</a>
-            <a>Remington</a>
-            <a>Scopes & Optics</a>
+            <a href='https://www.gunbroker.com/c/p/careers/'>Careers at GunBroker</a>
+            <a href='https://www.gunbroker.com/CZ-Firearms/search?Keywords=CZ'>CZ-USA</a>
+            <a href='https://www.gunbroker.com/Gun-Sights/search'>Gun Sights</a>
+            <a href='https://www.gunbroker.com/Kel-Tec-Firearms/search?Keywords=Kel%20Tec'>KEL-TEC</a>
+            <a href='https://www.gunbroker.com/Remington-Guns/search?Keywords=Remington'>Remington</a>
+            <a href='https://www.gunbroker.com/Scopes-Sights-Optics/search'>Scopes & Optics</a>
             </Col2>
             <Col2>
             <Title>POPULAR</Title>
-                <a>Popular Searches</a>
-                <a>Popular Gun Accessories</a>
-                <a>Popular Ammo</a>
-                <a>Gun Models</a>
+                <a href='https://www.gunbroker.com/popular/searches'>Popular Searches</a>
+                <a href='https://www.gunbroker.com/popular/gunaccessories'>Popular Gun Accessories</a>
+                <a href='https://www.gunbroker.com/popular/ammo'>Popular Ammo</a>
+                <a href='https://www.gunbroker.com/popular/gunmodels'>Gun Models</a>
             </Col2>
             <Col2>
             <Title>MANUFACTURERS</Title>
-                <a>Gun Manufacturers</a>
-                <a>Rifle Manufacturers</a>
-                <a>Pistol Manufacturers</a>
-                <a>Shotgun Manufacturers</a>
-                <a>Parts/Accessories<br/>Manufacturers</a>
-                <a>FFL/Dealer Services</a>
-                <a>Dealer Store</a>
+                <a href='https://www.gunbroker.com/manufacturers/gun'>Gun Manufacturers</a>
+                <a href='https://www.gunbroker.com/manufacturers/rifle'>Rifle Manufacturers</a>
+                <a href='https://www.gunbroker.com/manufacturers/pistol'>Pistol Manufacturers</a>
+                <a href='https://www.gunbroker.com/manufacturers/shotgun'>Shotgun Manufacturers</a>
+                <a href='https://www.gunbroker.com/manufacturers/partsandaccessories'>Parts/Accessories<br/>Manufacturers</a>
+                <a href='https://www.gunbroker.com/user/login?ReturnUrl=/newregistration/signupdetails'>FFL/Dealer Services</a>
+                <a href='https://www.gunbroker.com/user/login?ReturnUrl=/newregistration/signupdetails'>Dealer Store</a>
             </Col2>
             </Holder>
 
             <Holder>
             <Col2>
-            <Title> <img src={genius}/> RELATED SITES</Title>
-                <a>ATF FFL EZ Check</a>
-                <a>Forums</a>
-                <a>Gun Genius</a>
+            <Title> <img alt='related sites' src={genius}/> GUN GENIUS</Title>
+                <a href='https://www.gungenius.com/'>The world's most powerful firearm database</a>
             </Col2>
             <Col2>
-            <Title><img src={forums}/>AREAS OF INTEREST</Title>
-                <a>The GunBroker Store</a>
-                <a>Articles</a>
-                <a>Stores</a>
-                <a>Firearm Industry News</a>
-                <a>Gold Membership</a>
-                <a>Videos</a>
+            <Title><img alt='areas of interest' src={forums}/>GUN BROKERS.COM FORUMS</Title>
+                <a href='https://forums.gunbroker.com/'>Discussion forums for for GunBroker.com users</a>
             </Col2>
             <Col2>
-            <Title><img src={poww}/>INDUSTRY RELATIONS</Title>
-                <a>Advertise with Us</a>
-                <a>Investor and Media</a>
-                <a>Relations</a>
+            <Title><img alt='industry relations' src={poww}/>OWN STOCK</Title>
+                <a href='https://support.gunbroker.com/hc/en-us/articles/221733727'>Publicly traded on Nasdaq as poww</a>
             </Col2>
             </Holder>
         </Wrapper>
@@ -65,19 +56,19 @@ const Footer3 = () => {
             <HoldWrap>
                 <nav>© 1999-2023 GunBroker.com All rights reserved worldwide. (01 7.0.34.3120)</nav>
                 <Adiv>
-                <a href=''>
+                <a href='https://www.gunbroker.com/user/login?ReturnUrl=/newregistration/signupdetails'>
                     Copyright & trademarks
                 </a>
-                <a href=''>
+                <a href='https://www.gunbroker.com/user/login?ReturnUrl=/newregistration/signupdetails'>
                     User Agreements
                 </a>
-                <a href=''>
+                <a href='https://www.gunbroker.com/user/login?ReturnUrl=/newregistration/signupdetails'>
                     Privacy Policy
                 </a>
-                <a href=''>
+                <a href='https://www.gunbroker.com/user/login?ReturnUrl=/newregistration/signupdetails'>
                     Accessibility
                 </a>
-                <a href=''>
+                <a href='https://www.gunbroker.com/user/login?ReturnUrl=/newregistration/signupdetails'>
                     Legal Terms
                 </a>
                 </Adiv>
@@ -225,6 +216,7 @@ a{
   font-size: 12px;
   cursor: pointer;
   margin: 4px 0;
+  text-decoration: none;
   :hover{
     color: #006400;
     transition: all 350ms;

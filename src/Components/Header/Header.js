@@ -56,7 +56,7 @@ const Header = () => {
                     <option>Vehicles</option>
                     </Select>
                     <SearchButton>Search</SearchButton>
-                    <Advanced>Advanced</Advanced>
+                    <Advanced to='https://www.gunbroker.com/search/advanced'>Advanced</Advanced>
                 </SearchHold>
                 <Nav1Hold>
                     <Nav1 to='/login'>Sign In</Nav1>

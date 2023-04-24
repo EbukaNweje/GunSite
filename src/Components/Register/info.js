@@ -151,7 +151,6 @@ width: 7%;
 height: 100%;
 display: flex;
 justify-content: center;
-/* align-items: center; */
 padding: 0.3rem;
 border-radius: 3px 0px 0px 3px;
 border-right: 1px solid silver;
@@ -237,7 +236,6 @@ margin-bottom: 5px;
 const DivLabel = styled.div`
 width: 100%;
 display: flex;
-/* align-items: center; */
 border: 1px solid silver;
 border-radius: 5px;
 
@@ -245,7 +243,6 @@ border-radius: 5px;
 `;
 const InputHold = styled.div`
 width: 90%;
-/* background-color: green; */
 height: 100%;
 `;
 

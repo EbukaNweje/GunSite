@@ -164,7 +164,7 @@ padding: 0.70rem 0.7rem;
 padding: 0.70rem 0.5rem;    
 }
 `;
-export const Advanced = styled.div`
+export const Advanced = styled(Link)`
 color: green;
 margin-left: 8px;
 font-size: 12px;

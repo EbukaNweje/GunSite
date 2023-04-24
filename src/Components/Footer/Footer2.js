@@ -77,7 +77,6 @@ img{
 }
 
 @media Screen and (max-width: 768px){
-    /* background-color: peru; */
     width: 40%;
 }
 
@@ -100,7 +99,6 @@ line-height: 1px;
 align-items: end;
 
 @media Screen and (max-width: 768px){
-    /* background-color: tomato; */
     width: 40%;
     span{
         margin-top: 10px;

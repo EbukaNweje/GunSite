@@ -52,7 +52,7 @@ const Login = () => {
             fetchData();
           }}>Login</Button2>
           <P2>Forget your password?</P2>
-          <Info>This site is protected by reCAPTCHA and the Google <span><a>PrivacyPolicy</a></span> and <span><a>Terms of service</a></span></Info>
+          <Info>This site is protected by reCAPTCHA and the Google <span><a href='https://www.gunbroker.com/user/login?ReturnUrl=/newregistration/signupdetails'>PrivacyPolicy</a></span> and <span><a href='https://www.gunbroker.com/user/login?ReturnUrl=/newregistration/signupdetails'>Terms of service</a></span></Info>
         </First>
       </Wrapper>
       <Bottom>
@@ -66,4 +66,4 @@ const Login = () => {
   )
 }
 
-export default Login
+export default Login;

@@ -9,56 +9,56 @@ const Footer1 = () => {
            <Holder>
            <Col2>
             <Title>HELP</Title>
-            <a>Contact Us</a>
-            <a>FAQ</a>
-            <a>About</a>
-            <a>Register</a>
-            <a>Site MAp</a>
-            <a>Support Page</a>
-            <a>What's New</a>
+            <a href='https://support.gunbroker.com/hc/en-us/requests/new'>Contact Us</a>
+            <a href='https://support.gunbroker.com/'>FAQ</a>
+            <a href='https://www.gunbroker.com/#home-footer'>About</a>
+            <a href='https://www.gunbroker.com/newregistration/signupdetailshttps://www.gunbroker.com/user/login?ReturnUrl=/newregistration/signupdetails'>Register</a>
+            <a href='https://www.gunbroker.com/sitemap'>Site MAp</a>
+            <a href='https://www.gunbroker.com/a/my-gunbroker/my-support'>Support Page</a>
+            <a href='https://support.gunbroker.com/hc/en-us/articles/360037768353'>What's New</a>
             </Col2>
             <Col2>
             <Title>BUYERS</Title>
-                <a>Tools for Buyers</a>
-                <a>New Buyers</a>
-                <a>How To Buy</a>
-                <a>Buyer's Protection</a>
-                <a>Find An FFL</a>
-                <a>GunBroker.com Pricing</a>
-                <a>Report</a>
+                <a href='https://www.gunbroker.com/c/user/toolsforbuyers/'>Tools for Buyers</a>
+                <a href='https://support.gunbroker.com/hc/en-us/sections/204608687'>New Buyers</a>
+                <a href='https://www.gunbroker.com/c/user/howtobuy/'>How To Buy</a>
+                <a href='https://support.gunbroker.com/hc/en-us/articles/224766967'>Buyer's Protection</a>
+                <a href='https://www.gunbroker.com/ffl/index'>Find An FFL</a>
+                <a href='https://www.gunbroker.com/c/p/reportingcenter/'>GunBroker.com Pricing</a>
+                <a href='https://www.gunbroker.com/c/p/reportingcenter/'>Report</a>
             </Col2>
             <Col2>
             <Title>SELLERS</Title>
-                <a>Tools for Sellers</a>
-                <a>New Sellers</a>
-                <a>How To Sell</a>
-                <a>Fees & Services</a>
-                <a>Find our FFL Network</a>
-                <a>FFL/Dealer Services</a>
-                <a>Dealer Store</a>
+                <a href='https://www.gunbroker.com/c/user/toolsforsellers/'>Tools for Sellers</a>
+                <a href='https://support.gunbroker.com/hc/en-us/sections/204608707'>New Sellers</a>
+                <a href='https://www.gunbroker.com/c/user/howtosell/'>How To Sell</a>
+                <a href='https://www.gunbroker.com/c/user/fees'>Fees & Services</a>
+                <a href='https://www.gunbroker.com/c/user/dealerservices/'>Join our FFL Network</a>
+                <a href='https://www.gunbroker.com/c/user/dealerservices/'>FFL/Dealer Services</a>
+                <a href='https://www.gunbroker.com/All/search?IncludeSellers=2623227'>Dealer Store</a>
             </Col2>
            </Holder>
            <Holder>
            <Col2>
             <Title>RELATED SITES</Title>
-                <a>ATF FFL EZ Check</a>
-                <a>Forums</a>
-                <a>Gun Genius</a>
+                <a href='https://fflezcheck.atf.gov/FFLEzCheck/'>ATF FFL EZ Check</a>
+                <a href='https://forums.gunbroker.com/'>Forums</a>
+                <a href='https://www.gungenius.com/'>Gun Genius</a>
             </Col2>
             <Col2>
             <Title>AREAS OF INTEREST</Title>
-                <a>The GunBroker Store</a>
-                <a>Articles</a>
-                <a>Stores</a>
-                <a>Firearm Industry News</a>
-                <a>Gold Membership</a>
-                <a>Videos</a>
+                <a href='https://www.gunbroker.com/thestorehttps://www.gunbroker.com/user/login?ReturnUrl=/newregistration/signupdetails'>The GunBroker Store</a>
+                <a href='https://www.gunbroker.com/c/article/'>Articles</a>
+                <a href='https://www.gunbroker.com/c/article/'>Stores</a>
+                <a href='https://www.gunbroker.com/industrynews'>Firearm Industry News</a>
+                <a href='https://www.gunbroker.com/c/p/goldmemberhelp'>Gold Membership</a>
+                <a href='https://www.gunbroker.com/c/video/'>Videos</a>
             </Col2>
             <Col2>
             <Title>INDUSTRY RELATIONS</Title>
-                <a>Advertise with Us</a>
-                <a>Investor and Media</a>
-                <a>Relations</a>
+                <a href='https://support.gunbroker.com/hc/en-us/articles/221674068'>Advertise with Us</a>
+                <a href='https://support.gunbroker.com/hc/en-us/articles/221733727'>Investor and Media</a>
+                <a href='https://support.gunbroker.com/hc/en-us/articles/221733727'>Relations</a>
             </Col2>
            </Holder>
         </Wrapper>
@@ -98,7 +98,6 @@ align-items: center;
 const Wrapper = styled.div`
 width: 70%;
 height: 100%;
-/* background-color: blueviolet; */
 display: flex;
 justify-content: space-between;
 
@@ -128,6 +127,7 @@ a{
   font-size: 15px;
   cursor: pointer;
   margin: 4px 0;
+  text-decoration: none;
 
   @media Screen and (max-width: 768px){
     font-size: 13px;
