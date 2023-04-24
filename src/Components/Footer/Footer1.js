@@ -12,8 +12,8 @@ const Footer1 = () => {
             <a href='https://support.gunbroker.com/hc/en-us/requests/new'>Contact Us</a>
             <a href='https://support.gunbroker.com/'>FAQ</a>
             <a href='https://www.gunbroker.com/#home-footer'>About</a>
-            <a href='https://www.gunbroker.com/newregistration/signupdetailshttps://www.gunbroker.com/user/login?ReturnUrl=/newregistration/signupdetails'>Register</a>
-            <a href='https://www.gunbroker.com/sitemap'>Site MAp</a>
+            <a href='https://www.gunbroker.com/search/advanced'>Register</a>
+            <a href='https://www.gunbroker.com/sitemap/'>Site Map</a>
             <a href='https://www.gunbroker.com/a/my-gunbroker/my-support'>Support Page</a>
             <a href='https://support.gunbroker.com/hc/en-us/articles/360037768353'>What's New</a>
             </Col2>
