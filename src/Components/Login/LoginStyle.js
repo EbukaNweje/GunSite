@@ -164,7 +164,7 @@ border-radius: 3px;
 display: flex;
 flex-direction: column;
 align-items: center;
-padding: 5px 0;
+padding: 10px 0;
 margin-top: 5px;
 
 @media Screen and (max-width: 768px){
