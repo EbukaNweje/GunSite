@@ -1,8 +1,5 @@
 import React from 'react'
-import { FiHome } from 'react-icons/fi';
-import { IoPersonCircleSharp } from 'react-icons/io5';
-import { BsX, BsBarChartLine, BsFillPersonFill, BsPerson} from 'react-icons/bs';
-import {MdQuestionMark,MdArticle,MdVideoFile,MdToken, MdOutlineCloudUpload, MdOutlineLibraryBooks, } from 'react-icons/md';
+import { BsX, BsArrowDown} from 'react-icons/bs';
 import { Link } from 'react-router-dom';
 import styled from "styled-components";
 
@@ -17,17 +14,31 @@ const SideNav = ({SetSideNav}) => {
             <BsX style={{width: 40, height: 40, color:"grey"}}/>
             </Button>
                 <MidNav>
-                    <Span to='/register'> <FiHome style={{color:"#FFBF00"}}/>  Home</Span>
-                    <Span to='/register'> <MdOutlineLibraryBooks style={{color:"#FFBF00"}}/> Buy</Span>
-                    <Span to='/register'> <BsBarChartLine style={{color:"#FFBF00"}}/> Sell </Span>
-                    <Span to='/register'> <MdToken style={{color:"#FFBF00"}}/> Coupons </Span>
-                    <Span to='/register'> <MdOutlineCloudUpload style={{color:"#FFBF00"}}/>Stores</Span>
-                    <Span to='/register'> <MdArticle style={{color:"#FFBF00"}}/>Articles</Span>
-                    <Span to='/register'><MdVideoFile style={{color:"#FFBF00"}}/>Videos</Span>
-                    <Span to='/register'> <MdQuestionMark style={{color:"#FFBF00"}}/>FAQ</Span>
-                    <Span to='/register'> <IoPersonCircleSharp style={{color:"#FFBF00"}}/>Sign In</Span>
-                    <Span2 to='/register'> <BsFillPersonFill style={{color:"#FFBF00"}}/>Create Account</Span2>
-                    <Span3 to='/register'> <BsPerson style={{color:"#FFBF00"}}/>Sign In</Span3>
+                    <Span to='/'>Sign In</Span>
+                    <Span to='/register'>Register</Span>
+                    <Span to='/register'>Advanced Sreach </Span>
+                    <br/>
+                    <Span to='/register'>My GunBroker </Span>
+                    <Span to='/register'>Buying</Span>
+                    <Span to='/register'>Selling</Span>
+                    <br/>
+                    <Span to='/register'>Watch List</Span>
+                    <Span to='/register'>Saved Search</Span>
+                    <Span to='/register'>Shipping</Span>
+                    <Span2 to='/register'>Tool Box</Span2>
+                    <br/>
+                    <Span2 to='/register'>Account</Span2>
+                    <Span3 to='/register'>Support</Span3>
+                    <br/>
+                    <Span3 to='/register'>Buy</Span3>
+                    <Span3 to='/register'>Sell</Span3>
+                    <Span3 to='/register'>Coupons</Span3>
+                    <Span3 to='/register'>Stores</Span3>
+                    <Span3 to='/register'>Articles</Span3>
+                    <Span3 to='/register'>Videos</Span3>
+                    <Span3 to='/register'>Help</Span3>
+                    <br/>
+                    <Span3 to='/register'>Browse Categories  <BsArrowDown style={{color:"#555555"}}/></Span3>
                 </MidNav>
         </Wrapper>
     </Container>
@@ -72,7 +83,7 @@ const Container = styled.div`
     min-height: 49px;
     z-index: 990;
     overflow-x: hidden;
-    top: 150px;
+    top: 110px;
     height: 70vh;
     background-color: white;
     padding-top: 10px;
@@ -83,6 +94,10 @@ const Container = styled.div`
     margin-top: 20px;
 
     @media Screen and (max-width: 425px){
+      width: 90%;
+      left: 20px;
+    }
+    @media Screen and (max-width: 768px){
       width: 90%;
       left: 20px;
     }

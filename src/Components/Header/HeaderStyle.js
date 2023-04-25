@@ -19,7 +19,6 @@ export const NavDiv = styled.div`
     position: fixed;
     height: 50vh;
     width: 90%;
-    /* background-color: red; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,7 +49,9 @@ padding-bottom: 10px;
 @media Screen and (max-width: 320px){
     width: 100%;
 }
-
+@media Screen and (max-width: 768px){
+    width: 100%;
+}
 
 `;
 export const Wrapper = styled.div`

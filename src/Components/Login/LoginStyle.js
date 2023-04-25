@@ -26,6 +26,10 @@ justify-content: center;
 align-items: center;
 margin-top: 120px;
 
+@media Screen and (max-width: 768px){
+    height: auto;
+    width: 90%;
+}
 @media Screen and (max-width: 425px){
     height: auto;
 }
@@ -42,7 +46,7 @@ align-items: center;
 padding: 5px 0;
 
 @media Screen and (max-width: 768px){
-width: 70%;
+width: 90%;
 }
 
 @media Screen and (max-width: 425px){
@@ -164,7 +168,7 @@ padding: 5px 0;
 margin-top: 5px;
 
 @media Screen and (max-width: 768px){
-width: 70%;
+width: 90%;
 }
 `;
 

@@ -59,9 +59,9 @@ const Header = () => {
                     <Advanced to='https://www.gunbroker.com/search/advanced'>Advanced</Advanced>
                 </SearchHold>
                 <Nav1Hold>
-                    <Nav1 to='/login'>Sign In</Nav1>
+                    <Nav1 to='/'>Sign In</Nav1>
                     <span>/</span>
-                    <Nav1 to='/'>Register</Nav1>
+                    <Nav1 to='/register'>Register</Nav1>
                     <MenuHold onClick={() =>{
                         SetSideNav(true)
                     }}>

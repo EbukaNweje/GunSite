@@ -4,6 +4,7 @@ import genius from './genius.svg'
 import forums from './forums.svg'
 import poww from './poww.svg'
 
+
 const Footer3 = () => {
   return (
     <Container>
