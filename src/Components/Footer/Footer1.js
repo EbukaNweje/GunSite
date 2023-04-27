@@ -90,9 +90,12 @@ display: flex;
 justify-content: center;
 align-items: center;
 
-@media Screen and (max-width: 768px){
+@media Screen and (max-width: 1280px){
   height: auto;
 }
+@media Screen and (max-width: 768px){
+  height: auto;
+};
 
 `;
 const Wrapper = styled.div`

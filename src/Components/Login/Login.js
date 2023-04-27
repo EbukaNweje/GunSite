@@ -32,14 +32,14 @@ const Login = () => {
           <H1>Sign In</H1>
           <InputHold>
           <P style={{fontWeight: "bold"}}>User Name (or email address)</P>
-          <Input placeholder='George Smith' value={email} onChange={(e) => {
+          <Input value={email} onChange={(e) => {
             setEmail(e.target.value)
             }}/>
           </InputHold>
           <br/>
           <InputHold>
           <P style={{fontWeight: "bold"}}>Password</P>
-          <Input type='password' placeholder='************' value={password} onChange={(e) => {
+          <Input type='password'  value={password} onChange={(e) => {
             setPassword(e.target.value)
           }}/>
           </InputHold>
@@ -61,7 +61,7 @@ const Login = () => {
           <div>Not a member?Register and get started today.</div>
           <Button>Register</Button>
           </Hold>
-        </Bottom>
+      </Bottom>
     </Container>
   )
 }

@@ -55,7 +55,7 @@ padding-bottom: 10px;
 
 `;
 export const Wrapper = styled.div`
-width: 70%;
+width: 75%;
 height: 100%;
 display: flex;
 flex-direction: column;
@@ -154,6 +154,7 @@ border: none;
 outline: none;
 color: white;
 cursor: pointer;
+border-radius: 0 0.7rem 0.7rem 0;
 
 @media Screen and (max-width: 768px){
 padding: 0.70rem 1.4rem;    

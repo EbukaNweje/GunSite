@@ -37,7 +37,7 @@ margin-top: 120px;
 export const Wrapper = styled.div`
 background-color: white;
 width: 30%;
-height: 60%;
+height: auto;
 border: 1px solid silver;
 border-radius: 3px;
 display: flex;
@@ -56,7 +56,7 @@ width: 90%;
 `;
 export const First = styled.div`
 width: 90%;
-height: 80%;
+height: auto;
 padding: 3px 1rem;
 `;
 export const H1 = styled.div`
@@ -169,6 +169,7 @@ margin-top: 5px;
 
 @media Screen and (max-width: 768px){
 width: 90%;
+height: auto;
 }
 `;
 
