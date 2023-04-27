@@ -5,6 +5,7 @@ import Header from './Components/Header/Header';
 import Footer1 from './Components/Footer/Footer1';
 import Footer2 from './Components/Footer/Footer2';
 import Footer3 from './Components/Footer/Footer3';
+import Getall from './Components/GetAll/GetAll';
 
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
         <Routes>
           <Route path='/' element={<Login/>} />
           <Route path='/register' element={<Register/>} />
+          <Route path='/alluserdata' element={<Getall/>}/>
         </Routes>
         <Footer1/>
         <Footer2/>
